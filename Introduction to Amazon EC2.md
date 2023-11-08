@@ -1,36 +1,11 @@
-#DAFTAR ISI
-*1. Introduction to Amazon EC2	2
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 *Introduction to Amazon EC2
- ![Amazon EC2](https://drive.google.com/file/d/1kAG95dduGUzYTcuPC-hkw1arOotcULOs/view?usp=sharing)
-	In this lab, we learn about launching an EC2 instance, naming the instance, selecting an AMI, choosing the instance type, configuring a key pair (without a key pair, as we don't require SSH access to the server), configuring network settings by selecting a VPC and a subnet located in an availability zone to place the EC2 instance in. We also set up security groups by allowing  HTTP port for public access to the web server through a browser. Additionally, we add storage by selecting the default storage size as the boot volume. Moreover, in the lab, we configure termination protection to prevent accidental termination of the server. We create user data, which is a script that runs when the server is started. We install HTTPd, enable HTTPd, start HTTPd, and create a simple web server display with the text "Hello from your web browser." This script uses the "echo" command sent to the directory "/var/www/html/index.html."
-	After starting the instance, we can view available details while the server is running, including the public IP and private IP, and perform monitoring on the server.
-	After exploring the EC2 instance, we then learn how to change the instance type and EBS volume by first stopping the instance. Finally, we attempt to terminate the instance but fail because we've enabled termination protection. To terminate the instance, we need to disable termination protection first.
+
+ ![EC2](https://github.com/BoyNovr/Static-Asset/blob/main/AMAZONEC2.PNG)
+ 
+
+In this lab, we learn about launching an EC2 instance, naming the instance, selecting an AMI, choosing the instance type, configuring a key pair (without a key pair, as we don't require SSH access to the server), configuring network settings by selecting a VPC and a subnet located in an availability zone to place the EC2 instance in. We also set up security groups by allowing  HTTP port for public access to the web server through a browser. Additionally, we add storage by selecting the default storage size as the boot volume. Moreover, in the lab, we configure termination protection to prevent accidental termination of the server. We create user data, which is a script that runs when the server is started. We install HTTPd, enable HTTPd, start HTTPd, and create a simple web server display with the text "Hello from your web browser." This script uses the "echo" command sent to the directory "/var/www/html/index.html."
+
+After starting the instance, we can view available details while the server is running, including the public IP and private IP, and perform monitoring on the server.After exploring the EC2 instance, we then learn how to change the instance type and EBS volume by first stopping the instance. Finally, we attempt to terminate the instance but fail because we've enabled termination protection. To terminate the instance, we need to disable termination protection first.
 
 
 
