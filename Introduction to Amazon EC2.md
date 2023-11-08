@@ -1,4 +1,4 @@
-Introduction to Amazon EC2
+# Introduction to Amazon EC2
 
  ![EC2](https://github.com/BoyNovr/Static-Assets/blob/main/AMAZONEC2.PNG)
  
