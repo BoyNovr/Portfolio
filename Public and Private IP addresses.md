@@ -1,4 +1,4 @@
-#Public and Private IP addresses
+# Public and Private IP addresses
 
  ![IP](https://github.com/BoyNovr/Static-Assets/blob/main/publicprivateIP.drawio.png)
 
