@@ -1,7 +1,7 @@
 # Portfolio
 Welcome to the "Cloud Computing Hands-On Experience" repository! This repository is dedicated to sharing my practical journey and expertise in the world of cloud computing.
 
-In this repository, you will find a collection of projects, scripts, and guides that showcase my hands-on experience with leading cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and more. I've had the privilege of working with a wide range of cloud services, including virtual machines, containers, serverless computing, databases, and storage solutions.
+In this repository, you will find a collection of projects, scripts, and guides that showcase my hands-on experience with leading cloud platforms like Amazon Web Services (AWS). I've had the privilege of working with a wide range of AWS cloud services, including virtual machines, containers, serverless computing, databases, and storage solutions.
 
 ## Source of Hands-On Lab Material
 
