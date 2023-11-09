@@ -1,8 +1,0 @@
-# Public and Private IP addresses
-
- ![IP](https://github.com/BoyNovr/Static-Assets/blob/main/publicprivateIP.drawio.png)
-
-In this lab, we learn about the use of public and private IPs in a case study that tells the story of a customer who complained that their web server couldn't connect to the internet. The customer has a VPC and a subnet containing 2 EC2 instances. Both instances have the same configuration, but instance A can't reach the internet, while instance B can. Our role as cloud support is to address this customer issue.
-After conducting an investigation, we checked all configurations, and found them to be identical, except that instance B has a public IP, whereas instance A lacks a public IP. We decided to SSH into instance B through its public IP and successfully gained access to it. Subsequently, we attempted to SSH into instance A using its private IP through instance B, and we successfully accessed instance A as well.
-Then, we tried to SSH into instance A directly using its private IP, but failed to establish a connection. From this, we can conclude that a public IP is used for connecting to the internet, while a private IP is used for communication within the VPC.
-We then informed the customer that the likelihood is that when creating instance A, they may have forgotten to enable the 'auto-assign public IP' option, resulting in instance A not having a public IP. We offered two solutions: firstly, the customer can back up the data within instance A, delete the instance, create a new one, and then restore the data from the backup into the new instance. However, if this seems too complex, the customer also has the option to create an Elastic IP for an additional fee and attach it to instance A.
